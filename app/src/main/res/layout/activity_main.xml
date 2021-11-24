@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_200">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText android:id="@+id/edit_message"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/prueba1" />
+
+
+    <Button
+        android:id="@+id/btn_gaaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prueba1"
+        android:onClick="runner"/>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/testi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scrolltext" />
+
+    </ScrollView>
+
+</LinearLayout>
